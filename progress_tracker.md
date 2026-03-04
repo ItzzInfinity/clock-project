@@ -4,3 +4,5 @@
 
 2. **Test2_SevSeg_with_max7219**
     - After successfully testing the SPI communication with the MAX7219, I will connect it to the 4 digit Seven Segment display. I will write a code to display numbers on the Seven Segment display using the MAX7219. This will involve sending the correct commands to the MAX7219 to control which segments of the display are turned on or off. It will show 0000 to 9999 in a loop to test all the digits and segments. If this works, then I can move on to the next step of integrating the NTP time synchronization .
+3. **Test3_NTP_setup_no_RTC**
+    - In this step, I will set up the NTP time synchronization without using an RTC. I will write a code to connect to a Wi-Fi network and then synchronize the time with an NTP server. I will display the synchronized time on the Serial Monitor to verify that it is working correctly. And same will be displayed on the 4 digit Seven Segment display.
